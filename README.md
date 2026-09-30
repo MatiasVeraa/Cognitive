@@ -16,7 +16,7 @@ Es una app Next.js 16 mínima, con ruta base `/dev/cognitive-sitios` (`lib/base.
 
 - **Portada:** `app/page.tsx`. Sin sesión pide la contraseña (formulario HTML a `app/ingresar/route.ts`, anda con o sin JavaScript); con sesión muestra las tres cards.
 - **Propuestas:** `public/cognitive-a`, `-b` y `-c`. Son **exportaciones estáticas** de cada proyecto de Cognitive, hechas con su ruta base, así que se sirven como archivos.
-- **Video del hero:** es el mismo en las tres propuestas, así que está una sola vez, en `public/compartido/hero-video-1280.mp4`.
+- **Video del hero:** es el mismo en las tres propuestas, así que está una sola vez, en `public/compartido`: `hero-video-1280.mp4` (apaisado, desktop) y `hero-video-440.mp4` (vertical, teléfono).
 - **Protección:** `proxy.ts` (el middleware de Next 16), con la lógica en `lib/sitios.ts`. Sin sesión, cualquier página o archivo de una propuesta vuelve a la portada, y después de ingresar se vuelve a donde se iba. Además, resuelve las páginas de las propuestas a su `index.html` y sirve el video compartido.
 - **Indexación y caché:** nada se indexa (`X-Robots-Tag` y `robots` en la metadata), y nada se guarda en cachés compartidas.
 - **Formulario de contacto:** en las propuestas no envía, porque son archivos estáticos sin servidor. Muestra el aviso de escribir a info@cognitive.la.
@@ -72,7 +72,7 @@ En Git Bash de Windows, anteponer `MSYS_NO_PATHCONV=1` (si no, convierte la ruta
 Después:
 
 1. Reemplazar `public/cognitive-a` por la carpeta `out/` que generó el build.
-2. Borrar de ahí `media/prueba/hero-video-1280.mp4`: se sirve desde `public/compartido`. Si el video cambió, reemplazar el de `public/compartido`.
+2. Borrar de ahí `media/prueba/hero-video-1280.mp4` y `media/prueba/hero-video-440.mp4`: se sirven desde `public/compartido`. Si el video cambió, reemplazar los de `public/compartido`.
 
 Para B y C es lo mismo, con `cognitive-b` y `cognitive-c`.
 

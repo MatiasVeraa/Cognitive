@@ -55,8 +55,9 @@ export const PROPUESTAS: readonly Propuesta[] = [
   },
 ];
 
-/** Archivos que las tres propuestas comparten (public/compartido): el video del hero. */
-const COMPARTIDOS = new Set(['hero-video-1280.mp4']);
+/** Archivos que las tres propuestas comparten (public/compartido): el video del hero, apaisado
+ *  y en su recorte vertical para el teléfono. */
+const COMPARTIDOS = new Set(['hero-video-1280.mp4', 'hero-video-440.mp4']);
 
 async function sha256(texto: string): Promise<string> {
   const datos = new TextEncoder().encode(texto);
