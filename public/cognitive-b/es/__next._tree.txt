@@ -1,3 +1,3 @@
-:HL["/dev/cognitive-sitios/cognitive-b/_next/static/chunks/3trcxmw3q7tzv.css","style"]
+:HL["/dev/cognitive-sitios/cognitive-b/_next/static/chunks/0xhtvlc8cbpvu.css","style"]
 :HL["/dev/cognitive-sitios/cognitive-b/_next/static/media/montserrat_latin_wght-s.p.0s216eisv2o7-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"es","siblings":["fonts"]},"prefetchHints":4144,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}}}},"staleTime":300,"buildId":"J6JZ8l-J3N5FK4IxyTNLX"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"es","siblings":["fonts"]},"prefetchHints":4144,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}}}},"staleTime":300,"buildId":"mhQkuuD4UMs4y6d3tQau0"}
