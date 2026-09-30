@@ -1,0 +1,7 @@
+User-Agent: *
+Allow: /
+Disallow: /es/styleguide
+Disallow: /en/styleguide
+
+Host: https://cognitive.la
+Sitemap: https://cognitive.la/sitemap.xml

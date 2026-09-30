@@ -1,0 +1,198 @@
+/* Portada de las propuestas: oscura, con los colores de Digital Arts. */
+
+:root {
+  --fondo: #0b0b0f;
+  --texto: #ffffff;
+  --texto-2: rgb(255 255 255 / 0.7);
+  --texto-3: rgb(255 255 255 / 0.4);
+  --borde: rgb(255 255 255 / 0.1);
+  --superficie: rgb(255 255 255 / 0.03);
+  --marca: #00deb3;
+  --marca-hover: #00c4a0;
+  --cian: #22d3ee;
+  --error: #fca5a5;
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  background: var(--fondo);
+  color: var(--texto);
+  -webkit-font-smoothing: antialiased;
+}
+
+.portada {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 64px 16px;
+}
+.portada::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  opacity: 0.14;
+  pointer-events: none;
+  background:
+    radial-gradient(50% 60% at 85% 0%, var(--marca) 0%, transparent 60%),
+    radial-gradient(40% 50% at 0% 100%, var(--cian) 0%, transparent 60%);
+}
+.portada-marco {
+  position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+}
+
+.rotulo {
+  display: block;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--texto-3);
+}
+.rotulo-marca {
+  color: var(--marca);
+}
+
+h1 {
+  margin: 8px 0 0;
+  font-size: clamp(2.25rem, 5vw, 3.75rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+}
+
+/* ——— Las tres opciones ——— */
+
+.propuestas {
+  display: grid;
+  gap: 24px;
+  margin: 48px 0 0;
+  padding: 0;
+  list-style: none;
+}
+@media (min-width: 768px) {
+  .propuestas {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+.propuesta {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 24px;
+  border: 1px solid var(--borde);
+  border-radius: 16px;
+  background: var(--superficie);
+  color: inherit;
+  text-decoration: none;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease;
+}
+.propuesta:hover {
+  border-color: rgb(0 222 179 / 0.6);
+  background: rgb(255 255 255 / 0.05);
+}
+.propuesta:focus-visible {
+  outline: 2px solid var(--marca);
+  outline-offset: 4px;
+}
+.propuesta-opcion {
+  margin-top: 8px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+.propuesta-texto {
+  margin-top: 20px;
+  font-size: 0.875rem;
+  line-height: 1.65;
+  color: var(--texto-2);
+}
+.propuesta-texto + .propuesta-texto {
+  margin-top: 16px;
+}
+.propuesta-texto .rotulo {
+  margin-bottom: 4px;
+  letter-spacing: 0.14em;
+}
+.propuesta-ver {
+  margin-top: auto;
+  padding-top: 24px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+.propuesta:hover .propuesta-ver {
+  color: var(--marca);
+}
+
+/* ——— El ingreso ——— */
+
+.ingreso {
+  max-width: 24rem;
+  margin-top: 48px;
+}
+.ingreso label {
+  display: block;
+  font-size: 0.875rem;
+  color: var(--texto-2);
+}
+.ingreso input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px 16px;
+  border: 1px solid rgb(255 255 255 / 0.15);
+  border-radius: 12px;
+  background: rgb(255 255 255 / 0.04);
+  color: var(--texto);
+  font: inherit;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+.ingreso input:focus {
+  border-color: var(--marca);
+}
+.ingreso-error {
+  margin: 8px 0 0;
+  font-size: 0.875rem;
+  color: var(--error);
+}
+.ingreso button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 12px 16px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--marca);
+  color: var(--fondo);
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+.ingreso button:hover {
+  background: var(--marca-hover);
+}
+.ingreso button:focus-visible {
+  outline: 2px solid var(--marca);
+  outline-offset: 4px;
+}
+
+@media (min-width: 640px) {
+  .portada {
+    padding: 96px 24px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none;
+  }
+}

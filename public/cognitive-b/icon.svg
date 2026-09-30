@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon PROVISORIO: reemplazar por el isotipo oficial cuando llegue el logo en SVG (CLIENT_REQUESTS A-1). -->
+  <rect width="64" height="64" fill="#050316"/>
+  <path d="M42.5 22.2A13 13 0 1 0 42.5 41.8" fill="none" stroke="#F2F1EE" stroke-width="6" stroke-linecap="butt"/>
+  <rect x="47" y="29" width="6" height="6" fill="#5E00FF"/>
+</svg>

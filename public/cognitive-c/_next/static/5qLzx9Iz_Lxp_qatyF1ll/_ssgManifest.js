@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002F[locale]","\u002F[locale]\u002Fcasos","\u002F[locale]\u002Fopengraph-image","\u002F[locale]\u002Fstyleguide"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()
