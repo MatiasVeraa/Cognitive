@@ -1,3 +1,3 @@
 :HL["/dev/cognitive-sitios/cognitive-c/_next/static/chunks/4058o7694k_i8.css","style"]
 :HL["/dev/cognitive-sitios/cognitive-c/_next/static/media/montserrat_latin_wght-s.p.0s216eisv2o7-.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":["fonts"]},"prefetchHints":4144,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}}}},"staleTime":300,"buildId":"MZKYJ8FtCBzhrj7TsoeoQ"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"locale","param":{"type":"d","key":"en","siblings":["fonts"]},"prefetchHints":4144,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}}}},"staleTime":300,"buildId":"qoLg52zSvwa--YY7iZ1nk"}
