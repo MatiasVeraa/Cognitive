@@ -1,0 +1,70 @@
+# Cognitive Latam
+
+> Cognitive (Cognitive Latam) es una empresa Deep Tech latinoamericana especializada en Inteligencia Artificial, Computer Vision, Automatización Inteligente con agentes de IA y Blockchain. Diseña, implementa y escala sistemas avanzados de IA a medida para gobiernos y empresas, con presencia en Argentina, España, México y Paraguay.
+
+Cognitive trabaja con gobiernos y empresas para transformar desafíos complejos en soluciones de IA de alto impacto y escalables, desde la idea hasta la producción. Su equipo combina desarrolladores, científicos de datos e ingenieros. Además de IA, desarrolla software a medida, aplicaciones móviles, PWAs y sitios web con diseño UX/UI. Realiza investigación aplicada en IA cuántica e identidad digital descentralizada junto a la Universidad Tecnológica Nacional (UTN) de Argentina.
+
+Sectores atendidos: seguridad pública, gobierno, retail, logística y depósitos, industria, agro (AgroTech), medios digitales, finanzas, salud/estética e infraestructura crítica.
+
+Clientes mencionados en el sitio incluyen: Falabella, Aerolíneas Argentinas, Zurich, Vonage, Supervielle, Gobierno de la Ciudad de Buenos Aires, Biblioteca Nacional Mariano Moreno y Jefatura de Gabinete de Ministros de Argentina.
+
+## Sitio principal
+
+- [Inicio (español)](https://www.cognitive.la/es): Presentación de la empresa, unidades de negocio, casos de éxito, clientes y contacto
+- [Home (English)](https://www.cognitive.la/en): Versión en inglés del sitio
+- [Contacto](https://www.cognitive.la/contacto): Formulario para hablar con el equipo
+- [Hablemos de tu estrategia de IA](https://page.cognitive.la/contacto): Página de contacto comercial
+
+## Unidades Cognitivas (servicios)
+
+- #01 IA Estratégica: Diseño e implementación de sistemas de IA personalizados, alineados con objetivos estratégicos, institucionales y de negocio, de la idea a la producción
+- #02 Computer Vision & Analytics: Visión artificial multisector (seguridad, retail, industria, agro, gobierno, infraestructura crítica) que convierte imágenes y video en decisiones en tiempo real
+- #03 Automatización & Agentes: Agentes de IA que ejecutan procesos complejos, coordinan flujos de trabajo y toman decisiones en tiempo real para operaciones, atención, ventas y backoffice
+- #04 IA Conversacional & Avatares: Bots y avatares humanos para marketing, ventas, atención al cliente 24/7 y comunicación institucional
+- #05 Blockchain & IA: Arquitecturas que combinan IA y Blockchain para trazabilidad, seguridad y gobernanza en entornos críticos y regulados
+- #06 CGN Labs: I+D en IA cuántica, nuevos modelos computacionales, identidad digital descentralizada (SSI) y tecnologías emergentes, en colaboración con la UTN
+
+## Casos de éxito: Inteligencia Artificial y Computer Vision
+
+- Gen-IA Recommendation Engine: Motor de recomendación con IA generativa para un medio digital, orientado a aumentar la retención de usuarios y la eficacia publicitaria
+- Shelf Retail AI: Solución end-to-end de IA y Computer Vision para monitoreo en tiempo real del punto de venta, desarrollada junto a LOGER y Vision Fractal
+- WISE (Warehouse Inventory System Expert): IA para gestión de inventario en depósitos, integrable con el WMS del cliente
+- FACE MATCH: Reconocimiento facial sobre video de CCTV para buscar coincidencias de rostros y generar analíticas y reportes a escala de cientos de cámaras
+- Reconocimiento Facial Masivo: Reconocimiento facial a gran escala
+- Crime Detection (Labs): Investigación en detección de situaciones de violencia en video analizando secuencias de eventos, en colaboración con la UTN
+- Detección de Armas: Detección de armas en tiempo real con alertas tempranas para espacios públicos y privados
+- Smart Parking: Conteo inteligente de vehículos en estacionamientos públicos o privados
+- Monitoreo de EPP: Detección del uso de equipos de protección personal en plantas industriales y obras
+- Visual Truck Type Recognition: Modelo a medida que identifica nueve tipos de camiones en rutas argentinas a partir de cámaras municipales
+- Eye Tracking (Deep Gaze©): Motor de IA basado en neurociencia que predice la respuesta visual humana ante piezas publicitarias, sitios web y apps
+- AgroTech - Contador de Cerdos: Conteo de cerdos en tiempo real con IA
+- AgroTech - Monitoreo Arroz: Monitoreo de suelo, clima y salud de cultivos con sensores, cámaras e IA para optimizar recursos y predecir resultados
+- MiColmena: Sistema de IA + IoT (app, módulo de monitoreo y servidor de IA) para apicultores, con alertas tempranas para reducir la mortandad de colmenas
+- ChatGPT Bot: Bot conversacional basado en modelos de lenguaje
+
+## Casos de éxito: Diseño y desarrollo de software
+
+- Crédito Limpio y PWA Crédito Limpio: Plataforma web y Progressive Web App
+- Mobile PandoraBox: App móvil de billetera de criptomonedas
+- Turnonet Desktop y Turnonet App PWA: Sistema de gestión de turnos en versión escritorio y PWA
+- APP MiColmena: Aplicación móvil del sistema MiColmena
+- PWA Gobierno de la Ciudad de Buenos Aires: Progressive Web App para el GCBA
+- ZS Estética: Desarrollo para centro de estética
+- EmailFacil: Plataforma de email
+- Website Armatutienda: Diseño web
+- Website Whatabot: Identidad corporativa, naming y web para una plataforma de creación de bots con IA
+- Website Symplika: Diseño web
+
+## Contacto
+
+- Email general: info@cognitive.la
+- Argentina: +54 11 2405 4172 · ar@cognitive.la
+- España: +34 622 512 385 · es@cognitive.la
+- México: +52 56 4412 7750
+- Paraguay: +595 983 984008 · py@cognitive.la
+- [Agendar demo](https://calendly.com/cognitive-la/cristian): Reunión para demostración de soluciones
+
+## Optional
+
+- [LinkedIn](https://www.linkedin.com/company/cognitivela/): Perfil corporativo y novedades
+- [YouTube](https://www.youtube.com/channel/UClXyBiXHuUukmTu29--qIZw): Videos de soluciones y demos
